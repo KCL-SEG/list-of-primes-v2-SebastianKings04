@@ -27,3 +27,9 @@ def test_negative_input():
 def test_zero_input():
     with pytest.raises(ValueError):
         primes(0)
+
+test_1_primes()
+test_2_primes()
+test_20_primes()
+test_negative_input()
+test_zero_input()
